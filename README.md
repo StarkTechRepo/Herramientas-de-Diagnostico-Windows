@@ -49,7 +49,7 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
 
 Además de estas herramientas, aquí tienes algunos sitios web útiles para verificar requisitos de sistema y realizar pruebas en línea:
 
-- [Bottleneck Calculator](https://pc-builds.com/es/bottleneck-calculator/)
+- [Bottleneck Calculator](https://pc-builds.com/es/bottleneck-calculator/) - Calculadora de cuellos de botella.
 - [System Requirements Lab](https://www.systemrequirementslab.com/cyri)
 - [Power Supply Calculator - Cooler Master](https://www.coolermaster.com/power-supply-calculator/)
 - [Can I Run It](https://technical.city/es/can-i-run-it) - Verifica si tu sistema cumple con los requisitos de juegos y software.
