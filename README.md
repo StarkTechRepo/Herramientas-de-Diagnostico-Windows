@@ -43,7 +43,27 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
 9. **Cinebench**
    - **Descripción:** Realiza pruebas de benchmarking para medir el rendimiento de la CPU y la GPU.
    - **Enlace:** [Descargar Cinebench](https://www.maxon.net/en/cinebench)
-  
+
+
+  ## Sitios y Recursos en Línea:
+
+Además de estas herramientas, aquí tienes algunos sitios web útiles para verificar requisitos de sistema y realizar pruebas en línea:
+
+- [Bottleneck Calculator](https://pc-builds.com/es/bottleneck-calculator/)
+- [System Requirements Lab](https://www.systemrequirementslab.com/cyri)
+- [Power Supply Calculator - Cooler Master](https://www.coolermaster.com/power-supply-calculator/)
+- [Can I Run It](https://technical.city/es/can-i-run-it) - Verifica si tu sistema cumple con los requisitos de juegos y software.
+- [Prueba de Mouse](https://www.onlinemictest.com/es/prueba-de-mouse/)
+- [Prueba de Sonido](https://www.onlinemictest.com/es/prueba-de-sonido/)
+- [Keyboard Test](https://keyboard-test.space/es/) - Prueba tu teclado en línea.
+- [WebcamTests.com](https://es.webcamtests.com/) - Prueba tu cámara web en línea.
+- [EIZO Monitor Test](https://www.eizo.be/monitor-test/) - Prueba la calidad de tu monitor.
+- [QuickCPU](https://coderbag.com/product/quickcpu) - Herramienta para ajustar la afinidad de núcleo de CPU en Windows.
+- [BleachBit](https://www.bleachbit.org/) - Limpia y optimiza tu sistema.
+- [Disable CPU Core Parking Utility](https://coderbag.com/product/quickcpu) - Controla el apagado de núcleos de CPU en sistemas multiprocesador.
+
+Utiliza estas herramientas y recursos para mejorar el rendimiento y la gestión de tu sistema Windows.
+
 ## Licencia
 Este proyecto está bajo la licencia [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Puedes compartir, adaptar y utilizar estos archivos siempre que des el crédito correspondiente al autor original.
 
