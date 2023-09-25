@@ -20,35 +20,31 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
    - **Descripción:** Supervisa temperaturas, voltajes y velocidades de ventiladores para prevenir sobrecalentamientos.
    - **Enlace:** [Descargar HWMonitor](https://www.cpuid.com/softwares/hwmonitor.html)
 
-5. **HWMonitor**
-   - **Descripción:** Supervisa temperaturas, voltajes y velocidades de ventiladores para prevenir sobrecalentamientos.
-   - **Enlace:** [Descargar HWMonitor](https://www.cpuid.com/softwares/hwmonitor.html)
-
-6. **HDD Regenerator**
+5. **HDD Regenerator**
    - **Descripción:** HDD Regenerator es una potente herramienta diseñada para regenerar sectores defectuosos en discos duros, mejorando la integridad de tus datos y la salud de tu disco.
    - **Enlace:** [Descargar HDD Regenerator](http://www.dposoft.net/)
 
 ## Herramientas de Evaluación:
 
-7. **CrystalDiskMark**
+6. **CrystalDiskMark**
    - **Descripción:** Realiza pruebas de velocidad de lectura y escritura en tus unidades de almacenamiento.
    - **Enlace:** [Descargar CrystalDiskMark](https://crystalmark.info/en/software/crystaldiskmark/)
 
-8. **MemTest86**
+7. **MemTest86**
    - **Descripción:** Diagnostica la memoria RAM para detectar posibles problemas.
    - **Enlace:** [Sitio oficial de MemTest86](https://www.memtest86.com/)
 
-9. **FurMark**
+8. **FurMark**
    - **Descripción:** Realiza pruebas de estrés en tu tarjeta gráfica para evaluar su rendimiento y estabilidad.
    - **Enlace:** [Descargar FurMark](https://www.geeks3d.com/furmark/)
 
 ## Otras Herramientas Útiles:
 
-10. **Hiren's BootCD PE**
+9. **Hiren's BootCD PE**
    - **Descripción:** Una suite de herramientas de rescate para reparar sistemas y recuperar datos.
    - **Enlace:** [Sitio oficial de Hiren's BootCD PE](https://www.hirensbootcd.org/)
 
-11. **Cinebench**
+10. **Cinebench**
    - **Descripción:** Realiza pruebas de benchmarking para medir el rendimiento de la CPU y la GPU.
    - **Enlace:** [Descargar Cinebench](https://www.maxon.net/en/cinebench)
 
