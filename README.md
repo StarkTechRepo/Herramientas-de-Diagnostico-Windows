@@ -24,27 +24,31 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
    - **Descripción:** HDD Regenerator es una potente herramienta diseñada para regenerar sectores defectuosos en discos duros, mejorando la integridad de tus datos y la salud de tu disco.
    - **Enlace:** [Descargar HDD Regenerator](http://www.dposoft.net/)
 
+6. **MSI Afterburner**
+   - **Descripción:** MSI Afterburner es una aplicación avanzada de ajuste de tarjeta gráfica que te permite controlar y optimizar el rendimiento de tu tarjeta gráfica, supervisar la temperatura y crear perfiles personalizados.
+   - **Enlace:** [Descargar MSI Afterburner](https://www.msi.com/page/afterburner)
+
 ## Herramientas de Evaluación:
 
-6. **CrystalDiskMark**
+7. **CrystalDiskMark**
    - **Descripción:** Realiza pruebas de velocidad de lectura y escritura en tus unidades de almacenamiento.
    - **Enlace:** [Descargar CrystalDiskMark](https://crystalmark.info/en/software/crystaldiskmark/)
 
-7. **MemTest86**
+8. **MemTest86**
    - **Descripción:** Diagnostica la memoria RAM para detectar posibles problemas.
    - **Enlace:** [Sitio oficial de MemTest86](https://www.memtest86.com/)
 
-8. **FurMark**
+9. **FurMark**
    - **Descripción:** Realiza pruebas de estrés en tu tarjeta gráfica para evaluar su rendimiento y estabilidad.
    - **Enlace:** [Descargar FurMark](https://www.geeks3d.com/furmark/)
 
 ## Otras Herramientas Útiles:
 
-9. **Hiren's BootCD PE**
+10. **Hiren's BootCD PE**
    - **Descripción:** Una suite de herramientas de rescate para reparar sistemas y recuperar datos.
    - **Enlace:** [Sitio oficial de Hiren's BootCD PE](https://www.hirensbootcd.org/)
 
-10. **Cinebench**
+11. **Cinebench**
    - **Descripción:** Realiza pruebas de benchmarking para medir el rendimiento de la CPU y la GPU.
    - **Enlace:** [Descargar Cinebench](https://www.maxon.net/en/cinebench)
 
