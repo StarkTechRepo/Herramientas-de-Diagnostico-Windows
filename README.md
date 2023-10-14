@@ -2,6 +2,12 @@
 
 Este repositorio recopila una serie de herramientas útiles para diagnosticar y evaluar el rendimiento de hardware y software en sistemas Windows. A continuación, se describen brevemente las herramientas y se proporcionan enlaces para su descarga o uso.
 
+## Índice
+1. [Herramientas de Diagnóstico](#herramientas-de-diagnóstico)
+2. [Herramientas de Evaluación](#herramientas-de-evaluación)
+3. [Otras Herramientas Útiles](#otras-herramientas-útiles)
+4. [Sitios y Recursos en Línea](#sitios-y-recursos-en-línea)
+
 ## Herramientas de Diagnóstico:
 
 1. **CPU-Z**
