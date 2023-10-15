@@ -7,6 +7,7 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
 2. [Herramientas de Evaluación](#herramientas-de-evaluación)
 3. [Otras Herramientas Útiles](#otras-herramientas-útiles)
 4. [Sitios y Recursos en Línea](#sitios-y-recursos-en-línea)
+5. [Diagnóstico completo desde Windowsa](#diagnóstico-completo-desde-windows)
 
 ## Herramientas de Diagnóstico:
 
@@ -58,6 +59,52 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
    - **Descripción:** Realiza pruebas de benchmarking para medir el rendimiento de la CPU y la GPU.
    - **Enlace:** [Descargar Cinebench](https://www.maxon.net/en/cinebench)
 
+
+## Diagnóstico completo desde Windows
+
+4. **SFC /scannow**: Escanea tu PC en busca de archivos de sistema corruptos.
+   - `sfc /scannow`
+
+5. **DISM /Online /Cleanup-Image /RestoreHealth**: Repara los componentes dañados del sistema operativo Windows.
+   - `DISM /Online /Cleanup-Image /RestoreHealth`
+
+6. **CHKDSK /f /r**: Comprueba y repara los errores del disco duro.
+   - `chkdsk /f /r`
+
+7. **Windows Memory Diagnostic**: Herramienta integrada de Windows que prueba la memoria de tu PC en busca de errores.
+   - `Windows Memory Diagnostic`
+
+## Diagnóstico de red
+
+8. **Ping**: Envía paquetes de datos a un servidor remoto para comprobar su disponibilidad.
+   - `ping www.google.com`
+
+9. **Netstat**: Muestra las conexiones de red activas en tu PC.
+   - `netstat -a`
+
+10. **Ipconfig**: Muestra la configuración de red de tu PC.
+   - `ipconfig /all`
+
+## Otros diagnósticos
+
+11. **Windows Performance Recorder**: Registra datos de rendimiento de tu PC.
+   - `perfmon /record`
+
+12. **Windows Performance Analyzer**: Analiza los datos de rendimiento registrados por Windows Performance Recorder.
+   - `perfmon /analyzer`
+
+## Desfragmentar tu PC desde la línea de comandos
+
+- **dfrgui**: Abre el desfragmentador de disco integrado de Windows.
+- **defrag c:**: Desfragmenta la unidad C:.
+- **defrag c: /u**: Desfragmenta la unidad C: sin mover los archivos.
+- **defrag c: /t**: Desfragmenta la unidad C: en segundo plano.
+
+## Diagnosticar el procesador
+
+- [**Intel Processor Diagnostic Tool**](https://downloadcenter.intel.com/download/19792/Intel-Processor-Diagnostic-Tool): Esta herramienta te permite realizar pruebas exhaustivas en tu procesador Intel para detectar posibles errores.
+
+- [**AMD Ryzen Master**](https://www.amd.com/en/technologies/ryzen-master): Si tienes un procesador AMD Ryzen, puedes utilizar AMD Ryzen Master para realizar pruebas y verificar el estado de tu procesador.
 
   ## Sitios y Recursos en Línea:
 
