@@ -105,7 +105,7 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
 
 - [**AMD Ryzen Master**](https://www.amd.com/en/technologies/ryzen-master): Si tienes un procesador AMD Ryzen, puedes utilizar AMD Ryzen Master para realizar pruebas y verificar el estado de tu procesador.
 
-  ## Sitios y Recursos en Línea:
+## Sitios y Recursos en Línea:
 - [Gamepad Tester](https://hardwaretester.com/gamepad) 
 - [Bottleneck Calculator](https://pc-builds.com/es/bottleneck-calculator/) - Calculadora de cuellos de botella.
 - [System Requirements Lab](https://www.systemrequirementslab.com/cyri)
