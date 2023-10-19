@@ -49,7 +49,7 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
    - **Descripción:** FurMark es un software de prueba de estrés que genera una imagen fija de un patrón de puntos en movimiento. Este patrón es muy exigente para el monitor y puede ayudar a identificar problemas de estabilidad.
    - **Enlace:** [Descargar FurMark](https://www.geeks3d.com/furmark/)
   
-10. **OCCT*
+10. **OCCT**
    - **Descripción:** OCCT es un software de prueba de estrés que puede generar imágenes fijas o en movimiento. OCCT también puede realizar pruebas de estrés de otros componentes del sistema, como la CPU y la GPU.
    - **Enlace:** [Descargar FurMark](https://www.ocbase.com/)
   
