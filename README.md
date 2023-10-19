@@ -52,17 +52,16 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
 10. **OCCT**
    - **Descripción:** OCCT es un software de prueba de estrés que puede generar imágenes fijas o en movimiento. OCCT también puede realizar pruebas de estrés de otros componentes del sistema, como la CPU y la GPU.
    - **Enlace:** [Descargar FurMark](https://www.ocbase.com/)
+
+11. **Cinebench**
+   - **Descripción:** Realiza pruebas de benchmarking para medir el rendimiento de la CPU y la GPU.
+   - **Enlace:** [Descargar Cinebench](https://www.maxon.net/en/cinebench)
   
 ## Otras Herramientas Útiles:
 
-11. **Hiren's BootCD PE**
+12. **Hiren's BootCD PE**
    - **Descripción:** Una suite de herramientas de rescate para reparar sistemas y recuperar datos.
    - **Enlace:** [Sitio oficial de Hiren's BootCD PE](https://www.hirensbootcd.org/)
-
-12. **Cinebench**
-   - **Descripción:** Realiza pruebas de benchmarking para medir el rendimiento de la CPU y la GPU.
-   - **Enlace:** [Descargar Cinebench](https://www.maxon.net/en/cinebench)
-
 
 ## Diagnóstico completo desde Windows
 
