@@ -46,51 +46,55 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
    - **Enlace:** [Sitio oficial de MemTest86](https://www.memtest86.com/)
 
 9. **FurMark**
-   - **Descripción:** Realiza pruebas de estrés en tu tarjeta gráfica para evaluar su rendimiento y estabilidad.
+   - **Descripción:** FurMark es un software de prueba de estrés que genera una imagen fija de un patrón de puntos en movimiento. Este patrón es muy exigente para el monitor y puede ayudar a identificar problemas de estabilidad.
    - **Enlace:** [Descargar FurMark](https://www.geeks3d.com/furmark/)
-
+  
+10. **OCCT*
+   - **Descripción:** OCCT es un software de prueba de estrés que puede generar imágenes fijas o en movimiento. OCCT también puede realizar pruebas de estrés de otros componentes del sistema, como la CPU y la GPU.
+   - **Enlace:** [Descargar FurMark](https://www.ocbase.com/)
+  
 ## Otras Herramientas Útiles:
 
-10. **Hiren's BootCD PE**
+11. **Hiren's BootCD PE**
    - **Descripción:** Una suite de herramientas de rescate para reparar sistemas y recuperar datos.
    - **Enlace:** [Sitio oficial de Hiren's BootCD PE](https://www.hirensbootcd.org/)
 
-11. **Cinebench**
+12. **Cinebench**
    - **Descripción:** Realiza pruebas de benchmarking para medir el rendimiento de la CPU y la GPU.
    - **Enlace:** [Descargar Cinebench](https://www.maxon.net/en/cinebench)
 
 
 ## Diagnóstico completo desde Windows
 
-4. **SFC /scannow**: Escanea tu PC en busca de archivos de sistema corruptos.
+13. **SFC /scannow**: Escanea tu PC en busca de archivos de sistema corruptos.
    - `sfc /scannow`
 
-5. **DISM /Online /Cleanup-Image /RestoreHealth**: Repara los componentes dañados del sistema operativo Windows.
+14. **DISM /Online /Cleanup-Image /RestoreHealth**: Repara los componentes dañados del sistema operativo Windows.
    - `DISM /Online /Cleanup-Image /RestoreHealth`
 
-6. **CHKDSK /f /r**: Comprueba y repara los errores del disco duro.
+15. **CHKDSK /f /r**: Comprueba y repara los errores del disco duro.
    - `chkdsk /f /r`
 
-7. **Windows Memory Diagnostic**: Herramienta integrada de Windows que prueba la memoria de tu PC en busca de errores.
+16. **Windows Memory Diagnostic**: Herramienta integrada de Windows que prueba la memoria de tu PC en busca de errores.
    - `Windows Memory Diagnostic`
 
 ## Diagnóstico de red
 
-8. **Ping**: Envía paquetes de datos a un servidor remoto para comprobar su disponibilidad.
+17. **Ping**: Envía paquetes de datos a un servidor remoto para comprobar su disponibilidad.
    - `ping www.google.com`
 
-9. **Netstat**: Muestra las conexiones de red activas en tu PC.
+18. **Netstat**: Muestra las conexiones de red activas en tu PC.
    - `netstat -a`
 
-10. **Ipconfig**: Muestra la configuración de red de tu PC.
+19. **Ipconfig**: Muestra la configuración de red de tu PC.
    - `ipconfig /all`
 
 ## Otros diagnósticos
 
-11. **Windows Performance Recorder**: Registra datos de rendimiento de tu PC.
+20. **Windows Performance Recorder**: Registra datos de rendimiento de tu PC.
    - `perfmon /record`
 
-12. **Windows Performance Analyzer**: Analiza los datos de rendimiento registrados por Windows Performance Recorder.
+21. **Windows Performance Analyzer**: Analiza los datos de rendimiento registrados por Windows Performance Recorder.
    - `perfmon /analyzer`
 
 ## Desfragmentar tu PC desde la línea de comandos
