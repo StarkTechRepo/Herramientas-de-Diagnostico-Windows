@@ -8,6 +8,8 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
 3. [Otras Herramientas Útiles](#otras-herramientas-útiles)
 4. [Sitios y Recursos en Línea](#sitios-y-recursos-en-línea)
 5. [Diagnóstico completo desde Windowsa](#diagnóstico-completo-desde-windows)
+6. [Comandos MSD para Mejorar el Rendimiento y la Confiabilidad](#diagnóstico-completo-desde-windows)
+---
 
 ## Herramientas de Diagnóstico:
 
@@ -34,6 +36,8 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
 6. **MSI Afterburner**
    - **Descripción:** MSI Afterburner es una aplicación avanzada de ajuste de tarjeta gráfica que te permite controlar y optimizar el rendimiento de tu tarjeta gráfica, supervisar la temperatura y crear perfiles personalizados.
    - **Enlace:** [Descargar MSI Afterburner](https://www.msi.com/page/afterburner)
+
+---
 
 ## Herramientas de Evaluación:
 
@@ -63,6 +67,8 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
    - **Descripción:** Una suite de herramientas de rescate para reparar sistemas y recuperar datos.
    - **Enlace:** [Sitio oficial de Hiren's BootCD PE](https://www.hirensbootcd.org/)
 
+---
+
 ## Diagnóstico completo desde Windows
 
 13. **SFC /scannow**: Escanea tu PC en busca de archivos de sistema corruptos.
@@ -77,6 +83,8 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
 16. **Windows Memory Diagnostic**: Herramienta integrada de Windows que prueba la memoria de tu PC en busca de errores.
    - `Windows Memory Diagnostic`
 
+---
+
 ## Diagnóstico de red
 
 17. **Ping**: Envía paquetes de datos a un servidor remoto para comprobar su disponibilidad.
@@ -87,6 +95,8 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
 
 19. **Ipconfig**: Muestra la configuración de red de tu PC.
    - `ipconfig /all`
+
+---
 
 ## Otros diagnósticos
 
@@ -102,11 +112,61 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
 - **`defrag c: /u`**: Desfragmenta la unidad C: sin mover los archivos.
 - **`'defrag c: /t'`**: Desfragmenta la unidad C: en segundo plano.
 
+---
+
 ## Diagnosticar el procesador
 
 - [**Intel Processor Diagnostic Tool**](https://downloadcenter.intel.com/download/19792/Intel-Processor-Diagnostic-Tool): Esta herramienta te permite realizar pruebas exhaustivas en tu procesador Intel para detectar posibles errores.
 
 - [**AMD Ryzen Master**](https://www.amd.com/en/technologies/ryzen-master): Si tienes un procesador AMD Ryzen, puedes utilizar AMD Ryzen Master para realizar pruebas y verificar el estado de tu procesador.
+
+---
+
+## Comandos MSD para Mejorar el Rendimiento y la Confiabilidad 
+El comando MSD es una herramienta poderosa que puede utilizarse para mejorar el rendimiento y la confiabilidad de los sistemas Windows. Sin embargo, es crucial usar el comando con precaución, ya que su uso incorrecto puede dañar o corromper los sistemas.
+
+#### Identificación de Problemas de Hardware
+Para identificar problemas de hardware, ejecuta el siguiente comando:
+```
+msd -d maintenancediagnost
+```
+Este comando escaneará el sistema en busca de problemas de hardware e informará sobre cualquier problema que se encuentre.
+
+#### Recopilación de Información del Sistema
+Para recopilar información del sistema, ejecuta el siguiente comando:
+```
+msd -d collectinfo
+```
+Este comando recopilará información sobre el sistema, como la versión del sistema operativo, la configuración de hardware y el software instalado. La información se guardará en un archivo que se puede utilizar para solucionar problemas o para crear imágenes del sistema.
+
+#### Creación de una Imagen del Sistema
+Para crear una imagen del sistema, ejecuta el siguiente comando:
+```
+msd -d createimage
+```
+Este comando creará una imagen del sistema. La imagen se puede utilizar para restaurar el sistema a un estado anterior o para implementar el sistema en otras computadoras.
+
+#### Tareas de Mantenimiento Automatizadas
+Para realizar tareas de mantenimiento automatizadas, ejecuta el siguiente comando:
+```
+msd -d automaint
+```
+Este comando ejecutará una serie de tareas de mantenimiento automatizadas, como la búsqueda de virus y spyware, y la comprobación de actualizaciones de software.
+
+#### Configuración del servicio MSDdiag para el comando msd
+
+```
+rem Configuración del inicio automático
+sc config msddiag start= auto
+
+rem Consulta del estado del servicio MSDdiag
+sc query msddiag
+
+rem Inicio del servicio MSDdiag
+sc start msddiag
+```
+
+---
 
 ## Sitios y Recursos en Línea:
 - [Gamepad Tester](https://hardwaretester.com/gamepad) 
@@ -124,6 +184,8 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
 - [Disable CPU Core Parking Utility](https://coderbag.com/product/quickcpu) - Controla el apagado de núcleos de CPU en sistemas multiprocesador.
 
 Utiliza estas herramientas y recursos para mejorar el rendimiento y la gestión de tu sistema Windows.
+
+---
 
 ## Licencia
 Este proyecto está bajo la licencia [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/). Puedes compartir, adaptar y utilizar estos archivos siempre que des el crédito correspondiente al autor original.
