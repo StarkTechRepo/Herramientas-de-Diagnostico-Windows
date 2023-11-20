@@ -124,10 +124,22 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
    ```
 
 ## Desfragmentar tu PC desde la línea de comandos
-- **`dfrgui`**: Abre el desfragmentador de disco integrado de Windows.
-- **`defrag c:`**: Desfragmenta la unidad C:.
-- **`defrag c: /u`**: Desfragmenta la unidad C: sin mover los archivos.
-- **`'defrag c: /t'`**: Desfragmenta la unidad C: en segundo plano.
+- Abre el desfragmentador de disco integrado de Windows.
+```
+dfrgui`
+```
+- Desfragmenta la unidad C:.
+```
+efrag c:
+```
+- Desfragmenta la unidad C: sin mover los archivos.
+```
+defrag c: /u
+```
+- Desfragmenta la unidad C: en segundo plano.
+```
+defrag c: /t
+```
 
 ---
 
