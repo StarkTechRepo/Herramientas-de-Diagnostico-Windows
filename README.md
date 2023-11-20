@@ -8,7 +8,7 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
 3. [Otras Herramientas Útiles](#otras-herramientas-útiles)
 4. [Sitios y Recursos en Línea](#sitios-y-recursos-en-línea)
 5. [Diagnóstico completo desde Windowsa](#diagnóstico-completo-desde-windows)
-6. [Comandos MSD para Mejorar el Rendimiento y la Confiabilidad](#diagnóstico-completo-desde-windows)
+6. [Comandos MSD para Mejorar el Rendimiento y la Confiabilidad](#comandos-msd-para-mejorar-el-rendimiento-y-la-confiabilidad)
 ---
 
 ## Herramientas de Diagnóstico:
