@@ -142,35 +142,35 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
 ## Comandos MSD para Mejorar el Rendimiento y la Confiabilidad 
 El comando MSD es una herramienta poderosa que puede utilizarse para mejorar el rendimiento y la confiabilidad de los sistemas Windows. Sin embargo, es crucial usar el comando con precaución, ya que su uso incorrecto puede dañar o corromper los sistemas.
 
-#### Identificación de Problemas de Hardware
+### Identificación de Problemas de Hardware
 Para identificar problemas de hardware, ejecuta el siguiente comando:
 ```
 msd -d maintenancediagnost
 ```
 Este comando escaneará el sistema en busca de problemas de hardware e informará sobre cualquier problema que se encuentre.
 
-#### Recopilación de Información del Sistema
+### Recopilación de Información del Sistema
 Para recopilar información del sistema, ejecuta el siguiente comando:
 ```
 msd -d collectinfo
 ```
 Este comando recopilará información sobre el sistema, como la versión del sistema operativo, la configuración de hardware y el software instalado. La información se guardará en un archivo que se puede utilizar para solucionar problemas o para crear imágenes del sistema.
 
-#### Creación de una Imagen del Sistema
+### Creación de una Imagen del Sistema
 Para crear una imagen del sistema, ejecuta el siguiente comando:
 ```
 msd -d createimage
 ```
 Este comando creará una imagen del sistema. La imagen se puede utilizar para restaurar el sistema a un estado anterior o para implementar el sistema en otras computadoras.
 
-#### Tareas de Mantenimiento Automatizadas
+### Tareas de Mantenimiento Automatizadas
 Para realizar tareas de mantenimiento automatizadas, ejecuta el siguiente comando:
 ```
 msd -d automaint
 ```
 Este comando ejecutará una serie de tareas de mantenimiento automatizadas, como la búsqueda de virus y spyware, y la comprobación de actualizaciones de software.
 
-#### Configuración del servicio MSDdiag para el comando msd
+### Configuración del servicio MSDdiag para el comando msd
 
 ```
 rem Configuración del inicio automático
