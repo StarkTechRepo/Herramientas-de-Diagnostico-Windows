@@ -72,39 +72,56 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
 ## Diagnóstico completo desde Windows
 
 13. **SFC /scannow**: Escanea tu PC en busca de archivos de sistema corruptos.
-   - `sfc /scannow`
+   ```
+   sfc /scannow
+   ```
 
 14. **DISM /Online /Cleanup-Image /RestoreHealth**: Repara los componentes dañados del sistema operativo Windows.
-   - `DISM /Online /Cleanup-Image /RestoreHealth`
+   ```
+   DISM /Online /Cleanup-Image /RestoreHealth
+   ```
 
-15. **CHKDSK /f /r**: Comprueba y repara los errores del disco duro.
-   - `chkdsk /f /r`
+16. **CHKDSK /f /r**: Comprueba y repara los errores del disco duro.
+   ```
+   chkdsk /f /r`
+   ```
 
 16. **Windows Memory Diagnostic**: Herramienta integrada de Windows que prueba la memoria de tu PC en busca de errores.
-   - `Windows Memory Diagnostic`
+   ```
+   Windows Memory Diagnostic
+   ```
 
 ---
 
 ## Diagnóstico de red
 
 17. **Ping**: Envía paquetes de datos a un servidor remoto para comprobar su disponibilidad.
-   - `ping www.google.com`
+   ```
+   ping www.google.com
+   ```
 
-18. **Netstat**: Muestra las conexiones de red activas en tu PC.
-   - `netstat -a`
+19. **Netstat**: Muestra las conexiones de red activas en tu PC.
+   ```
+   netstat -a
+   ```
 
-19. **Ipconfig**: Muestra la configuración de red de tu PC.
-   - `ipconfig /all`
-
+20. **Ipconfig**: Muestra la configuración de red de tu PC.
+   ```
+   ipconfig /all
+   ```
 ---
 
 ## Otros diagnósticos
 
 20. **Windows Performance Recorder**: Registra datos de rendimiento de tu PC.
-   - `perfmon /record`
+   ```
+   perfmon /record
+   ```
 
-21. **Windows Performance Analyzer**: Analiza los datos de rendimiento registrados por Windows Performance Recorder.
-   - `perfmon /analyzer`
+22. **Windows Performance Analyzer**: Analiza los datos de rendimiento registrados por Windows Performance Recorder.
+   ```
+   perfmon /analyzer
+   ```
 
 ## Desfragmentar tu PC desde la línea de comandos
 - **`dfrgui`**: Abre el desfragmentador de disco integrado de Windows.
