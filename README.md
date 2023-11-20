@@ -83,7 +83,7 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
 
 16. **CHKDSK /f /r**: Comprueba y repara los errores del disco duro.
    ```
-   chkdsk /f /r`
+   chkdsk /f /r
    ```
 
 16. **Windows Memory Diagnostic**: Herramienta integrada de Windows que prueba la memoria de tu PC en busca de errores.
