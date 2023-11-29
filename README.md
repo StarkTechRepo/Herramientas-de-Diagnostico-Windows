@@ -83,31 +83,26 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
    DISM /Online /Cleanup-Image /RestoreHealth
    ```
 
-16. **CHKDSK /f /r**: Comprueba y repara los errores del disco duro.
+15. **CHKDSK /f /r**: Comprueba y repara los errores del disco duro.
    ```
    chkdsk /f /r
-   ```
-
-16. **Windows Memory Diagnostic**: Herramienta integrada de Windows que prueba la memoria de tu PC en busca de errores.
-   ```
-   Windows Memory Diagnostic
    ```
 
 ---
 
 ## Diagnóstico de red
 
-17. **Ping**: Envía paquetes de datos a un servidor remoto para comprobar su disponibilidad.
+16. **Ping**: Envía paquetes de datos a un servidor remoto para comprobar su disponibilidad.
    ```
    ping www.google.com
    ```
 
-19. **Netstat**: Muestra las conexiones de red activas en tu PC.
+17. **Netstat**: Muestra las conexiones de red activas en tu PC.
    ```
    netstat -a
    ```
 
-20. **Ipconfig**: Muestra la configuración de red de tu PC.
+10. **Ipconfig**: Muestra la configuración de red de tu PC.
    ```
    ipconfig /all
    ```
@@ -120,24 +115,19 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
    perfmon /record
    ```
 
-22. **Windows Performance Analyzer**: Analiza los datos de rendimiento registrados por Windows Performance Recorder.
+21. **Windows Performance Analyzer**: Analiza los datos de rendimiento registrados por Windows Performance Recorder.
    ```
    perfmon /analyzer
    ```
 
-23. **Verificar el estado de BitLocker**: Muestra el estado de cifrado de las unidades BitLocker.
+22. **Verificar el estado de BitLocker**: Muestra el estado de cifrado de las unidades BitLocker.
    ```
    manage-bde -status
    ```
 
-24. **Windows Memory Diagnostic**: Ejecuta la herramienta de diagnóstico de memoria de Windows.
+23. **Windows Memory Diagnostic**: Ejecuta la herramienta de diagnóstico de memoria de Windows.
    ```
    mdsched
-   ```
-
-25. **Reparar el Menú de Inicio de Windows**: Escanea y repara problemas con el Menú de Inicio.
-   ```
-   DISM /Online /Cleanup-Image /RestoreHealth && sfc /scannow && Get-AppXPackage -AllUsers | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
    ```
 
 ## Desfragmentar tu PC desde la línea de comandos
