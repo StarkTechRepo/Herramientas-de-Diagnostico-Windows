@@ -125,6 +125,21 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
    perfmon /analyzer
    ```
 
+23. **Verificar el estado de BitLocker**: Muestra el estado de cifrado de las unidades BitLocker.
+   ```
+   manage-bde -status
+   ```
+
+24. **Windows Memory Diagnostic**: Ejecuta la herramienta de diagnóstico de memoria de Windows.
+   ```
+   mdsched
+   ```
+
+25. **Reparar el Menú de Inicio de Windows**: Escanea y repara problemas con el Menú de Inicio.
+   ```
+   DISM /Online /Cleanup-Image /RestoreHealth && sfc /scannow && Get-AppXPackage -AllUsers | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+   ```
+
 ## Desfragmentar tu PC desde la línea de comandos
 - Abre el desfragmentador de disco integrado de Windows.
 ```
