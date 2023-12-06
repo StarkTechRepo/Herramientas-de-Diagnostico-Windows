@@ -78,8 +78,17 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
    sfc /scannow
    ```
 
-14. **DISM /Online /Cleanup-Image /RestoreHealth**: Repara los componentes dañados del sistema operativo Windows.
+14. **Repara los componentes dañados del sistema operativo Windows:**
    ```
+   :: Este comando le permitirá saber si la imagen de Windows está dañada o no.
+   DISM /Online /Cleanup-Image /CheckHealth
+   ```
+   ```
+   :: Este comando le permitirá obtener más información sobre la corrupción que se ha encontrado en la imagen de Windows.
+   DISM /Online /Cleanup-Image /ScanHealth
+   ```
+   ```
+   :: Este comando reparará la corrupción que se ha encontrado en la imagen de Windows.
    DISM /Online /Cleanup-Image /RestoreHealth
    ```
 
