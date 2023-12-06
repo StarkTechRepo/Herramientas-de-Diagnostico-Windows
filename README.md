@@ -78,21 +78,20 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
    sfc /scannow
    ```
 
-14. **Repara los componentes dañados del sistema operativo Windows:**
+14. **DISM /Online /Cleanup-Image /CheckHealth**: Este comando le permitirá saber si la imagen de Windows está dañada o no.
    ```
-   :: Este comando le permitirá saber si la imagen de Windows está dañada o no.
    DISM /Online /Cleanup-Image /CheckHealth
    ```
+15. **DISM /Online /Cleanup-Image /ScanHealth**: Este comando le permitirá obtener más información sobre la corrupción que se ha encontrado en la imagen de Windows.
    ```
-   :: Este comando le permitirá obtener más información sobre la corrupción que se ha encontrado en la imagen de Windows.
    DISM /Online /Cleanup-Image /ScanHealth
    ```
+16. **DISM /Online /Cleanup-Image /RestoreHealth**: Este comando reparará la corrupción que se ha encontrado en la imagen de Windows.
    ```
-   :: Este comando reparará la corrupción que se ha encontrado en la imagen de Windows.
    DISM /Online /Cleanup-Image /RestoreHealth
    ```
 
-15. **CHKDSK /f /r**: Comprueba y repara los errores del disco duro.
+17. **CHKDSK /f /r**: Comprueba y repara los errores del disco duro.
    ```
    chkdsk /f /r
    ```
@@ -101,17 +100,17 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
 
 ## Diagnóstico de red
 
-16. **Ping**: Envía paquetes de datos a un servidor remoto para comprobar su disponibilidad.
+18. **Ping**: Envía paquetes de datos a un servidor remoto para comprobar su disponibilidad.
    ```
    ping www.google.com
    ```
 
-17. **Netstat**: Muestra las conexiones de red activas en tu PC.
+19. **Netstat**: Muestra las conexiones de red activas en tu PC.
    ```
    netstat -a
    ```
 
-10. **Ipconfig**: Muestra la configuración de red de tu PC.
+20. **Ipconfig**: Muestra la configuración de red de tu PC.
    ```
    ipconfig /all
    ```
@@ -119,22 +118,22 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
 
 ## Otros diagnósticos
 
-20. **Windows Performance Recorder**: Registra datos de rendimiento de tu PC.
+21. **Windows Performance Recorder**: Registra datos de rendimiento de tu PC.
    ```
    perfmon /record
    ```
 
-21. **Windows Performance Analyzer**: Analiza los datos de rendimiento registrados por Windows Performance Recorder.
+22. **Windows Performance Analyzer**: Analiza los datos de rendimiento registrados por Windows Performance Recorder.
    ```
    perfmon /analyzer
    ```
 
-22. **Verificar el estado de BitLocker**: Muestra el estado de cifrado de las unidades BitLocker.
+23. **Verificar el estado de BitLocker**: Muestra el estado de cifrado de las unidades BitLocker.
    ```
    manage-bde -status
    ```
 
-23. **Windows Memory Diagnostic**: Ejecuta la herramienta de diagnóstico de memoria de Windows.
+24. **Windows Memory Diagnostic**: Ejecuta la herramienta de diagnóstico de memoria de Windows.
    ```
    mdsched
    ```
