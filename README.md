@@ -77,7 +77,6 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
    ```
    sfc /scannow
    ```
-
 14. **DISM /Online /Cleanup-Image /CheckHealth**: Este comando le permitirá saber si la imagen de Windows está dañada o no.
    ```
    DISM /Online /Cleanup-Image /CheckHealth
@@ -90,7 +89,6 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
    ```
    DISM /Online /Cleanup-Image /RestoreHealth
    ```
-
 17. **CHKDSK /f /r**: Comprueba y repara los errores del disco duro.
    ```
    chkdsk /f /r
@@ -104,16 +102,15 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
    ```
    ping www.google.com
    ```
-
 19. **Netstat**: Muestra las conexiones de red activas en tu PC.
    ```
    netstat -a
    ```
-
 20. **Ipconfig**: Muestra la configuración de red de tu PC.
    ```
    ipconfig /all
    ```
+
 ---
 
 ## Otros diagnósticos
@@ -122,21 +119,20 @@ Este repositorio recopila una serie de herramientas útiles para diagnosticar y 
    ```
    perfmon /record
    ```
-
 22. **Windows Performance Analyzer**: Analiza los datos de rendimiento registrados por Windows Performance Recorder.
    ```
    perfmon /analyzer
    ```
-
 23. **Verificar el estado de BitLocker**: Muestra el estado de cifrado de las unidades BitLocker.
    ```
    manage-bde -status
    ```
-
 24. **Windows Memory Diagnostic**: Ejecuta la herramienta de diagnóstico de memoria de Windows.
    ```
    mdsched
    ```
+
+---
 
 ## Desfragmentar tu PC desde la línea de comandos
 - Abre el desfragmentador de disco integrado de Windows.
@@ -166,68 +162,70 @@ defrag c: /t
 
 ---
 
-## Comandos MSD para Mejorar el Rendimiento y la Confiabilidad 
-El comando MSD es una herramienta poderosa que puede utilizarse para mejorar el rendimiento y la confiabilidad de los sistemas Windows. Sin embargo, es crucial usar el comando con precaución, ya que su uso incorrecto puede dañar o corromper los sistemas.
+## 🛠️🔍 Comandos MSD para Mejorar el Rendimiento y la Confiabilidad 
+- El comando MSD es una herramienta poderosa que puede utilizarse para mejorar el rendimiento y la confiabilidad de los sistemas Windows. Sin embargo, es crucial usar el comando con precaución, ya que su uso incorrecto puede dañar o corromper los sistemas. ⚠️💻
 
-### Identificación de Problemas de Hardware
-Para identificar problemas de hardware, ejecuta el siguiente comando:
+###  🛠️ Identificación de Problemas de Hardware
+- Para identificar problemas de hardware, ejecuta el siguiente comando:
 ```
 msd -d maintenancediagnost
 ```
-Este comando escaneará el sistema en busca de problemas de hardware e informará sobre cualquier problema que se encuentre.
+- Este comando escaneará el sistema en busca de problemas de hardware e informará sobre cualquier problema que se encuentre.
 
-### Recopilación de Información del Sistema
-Para recopilar información del sistema, ejecuta el siguiente comando:
+###  📊 Recopilación de Información del Sistema
+- Para recopilar información del sistema, ejecuta el siguiente comando:
 ```
 msd -d collectinfo
 ```
-Este comando recopilará información sobre el sistema, como la versión del sistema operativo, la configuración de hardware y el software instalado. La información se guardará en un archivo que se puede utilizar para solucionar problemas o para crear imágenes del sistema.
+- Este comando recopilará información sobre el sistema, como la versión del sistema operativo, la configuración de hardware y el software instalado. La información se guardará en un archivo que se puede utilizar para solucionar problemas o para crear imágenes del sistema.
 
-### Creación de una Imagen del Sistema
-Para crear una imagen del sistema, ejecuta el siguiente comando:
+###  🖼️ Creación de una Imagen del Sistema
+- Para crear una imagen del sistema, ejecuta el siguiente comando:
 ```
 msd -d createimage
 ```
-Este comando creará una imagen del sistema. La imagen se puede utilizar para restaurar el sistema a un estado anterior o para implementar el sistema en otras computadoras.
+- Este comando creará una imagen del sistema. La imagen se puede utilizar para restaurar el sistema a un estado anterior o para implementar el sistema en otras computadoras.
 
-### Tareas de Mantenimiento Automatizadas
-Para realizar tareas de mantenimiento automatizadas, ejecuta el siguiente comando:
+### ⚙️ Tareas de Mantenimiento Automatizadas
+- Para realizar tareas de mantenimiento automatizadas, ejecuta el siguiente comando:
 ```
 msd -d automaint
 ```
-Este comando ejecutará una serie de tareas de mantenimiento automatizadas, como la búsqueda de virus y spyware, y la comprobación de actualizaciones de software.
+- Este comando ejecutará una serie de tareas de mantenimiento automatizadas, como la búsqueda de virus y spyware, y la comprobación de actualizaciones de software.
 
-### Configuración del servicio MSDdiag para el comando msd
+---
+
+### ⚙️ Configuración del servicio MSDdiag para el comando msd
 
 ```
 rem Configuración del inicio automático
 sc config msddiag start= auto
-
+```
+```
 rem Consulta del estado del servicio MSDdiag
 sc query msddiag
-
+```
+```
 rem Inicio del servicio MSDdiag
 sc start msddiag
 ```
 
 ---
 
-## Sitios y Recursos en Línea:
-- [Gamepad Tester](https://hardwaretester.com/gamepad) 
-- [Bottleneck Calculator](https://pc-builds.com/es/bottleneck-calculator/) - Calculadora de cuellos de botella.
-- [System Requirements Lab](https://www.systemrequirementslab.com/cyri)
-- [Power Supply Calculator - Cooler Master](https://www.coolermaster.com/power-supply-calculator/)
-- [Can I Run It](https://technical.city/es/can-i-run-it) - Verifica si tu sistema cumple con los requisitos de juegos y software.
-- [Prueba de Mouse](https://www.onlinemictest.com/es/prueba-de-mouse/)
-- [Prueba de Sonido](https://www.onlinemictest.com/es/prueba-de-sonido/)
-- [Keyboard Test](https://keyboard-test.space/es/) - Prueba tu teclado en línea.
-- [WebcamTests.com](https://es.webcamtests.com/) - Prueba tu cámara web en línea.
-- [EIZO Monitor Test](https://www.eizo.be/monitor-test/) - Prueba la calidad de tu monitor.
-- [QuickCPU](https://coderbag.com/product/quickcpu) - Herramienta para ajustar la afinidad de núcleo de CPU en Windows.
-- [BleachBit](https://www.bleachbit.org/) - Limpia y optimiza tu sistema.
-- [Disable CPU Core Parking Utility](https://coderbag.com/product/quickcpu) - Controla el apagado de núcleos de CPU en sistemas multiprocesador.
-
-Utiliza estas herramientas y recursos para mejorar el rendimiento y la gestión de tu sistema Windows.
+## 🌐 Recursos Útiles en Línea:
+1. [Gamepad Tester](https://hardwaretester.com/gamepad) 🎮 - Herramienta para probar tus joysticks y mandos.
+2. [Bottleneck Calculator](https://pc-builds.com/es/bottleneck-calculator/) 🚀 - Calculadora para determinar si hay cuellos de botella en tu PC al combinar diferentes componentes.
+3. [System Requirements Lab](https://www.systemrequirementslab.com/cyri) 🛠️ - Verifica si tu PC cumple con los requisitos de sistema para juegos y software.
+4. [Power Supply Calculator - Cooler Master](https://www.coolermaster.com/power-supply-calculator/) ⚡ - Calculadora para determinar la potencia necesaria de tu fuente de alimentación.
+5. [Can I Run It](https://technical.city/es/can-i-run-it) 🎮 - Comprueba si tu PC puede ejecutar ciertos juegos y software.
+6. [Prueba de Mouse](https://www.onlinemictest.com/es/prueba-de-mouse/) 🖱️ - Herramienta para evaluar el rendimiento de tu ratón.
+7. [Prueba de Sonido](https://www.onlinemictest.com/es/prueba-de-sonido/) 🔊 - Verifica la calidad del sonido en tus dispositivos.
+8. [Keyboard Test](https://keyboard-test.space/es/) ⌨️ - Prueba en línea para evaluar el funcionamiento de tu teclado.
+9. [WebcamTests.com](https://es.webcamtests.com/) 📷 - Herramienta para probar el funcionamiento de tu cámara web.
+10. [EIZO Monitor Test](https://www.eizo.be/monitor-test/) 🖥️ - Prueba la calidad visual de tu monitor.
+11. [QuickCPU](https://coderbag.com/product/quickcpu) ⚙️ - Herramienta para ajustar la afinidad de núcleo de CPU en Windows.
+12. [BleachBit](https://www.bleachbit.org/) 🧹 - Aplicación para limpiar y optimizar tu sistema.
+13. [Disable CPU Core Parking Utility](https://coderbag.com/product/quickcpu) 🚫💤 - Controla la gestión de núcleos de CPU en sistemas multiprocesador.
 
 ---
 
